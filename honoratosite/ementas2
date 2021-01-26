@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="restaurantes.html">RESTAURANTES</a></li>
+                <li><a href="ementas.html">EMENTAS</a></li>
+                <li><a href="reservas.html">RESERVAS</a></li>
+            </ul>
+        </nav>
+        
+        
+        
+        
+        
+        
+        <footer>
+            <div>
+                <li><a href="https://www.facebook.com/HonoratoHamburgueresArtesanais"><img src="facebook.png" style="width:208px;height:105px;" alt="logo_facebook"></a></li>
+                <li><a href="https://www.instagram.com/honoratohamburgueresartesanais/"><img src="instagram.png" style="width:208px;height:105px;" alt="logo_instagram"></a></li>
+                <li><a href="mailto: honorato@honorato.pt"><img src="mail.png" style="width:208px;height:105px;" alt="logo_mail"></a></li>
+            </div> 
+            <div>
+                <hr></div>
+            <div>
+                <p>Livro De Reclamações</p>
+                <p>© 2020 Honorato Hambúrgueres Artesanais</p></div>
+        </footer>
+    </body>
+</html>

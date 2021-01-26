@@ -1,0 +1,330 @@
+/* Edição Geral */
+
+html {
+  background: #000000;
+  overflow-x: hidden;
+}
+
+* {
+  font-size: 100%;
+  font-family: DTLNobelT-Bold;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* menu */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #000000;
+}
+
+nav a.active {
+  border-bottom: 3px solid red;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+
+
+
+
+
+
+
+
+.table {
+  display: table; 
+  margin: 0 auto;
+}
+
+
+
+
+
+/* button */
+
+.myButton {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 16px 24px;
+  text-decoration: none;
+}
+.myButton:hover {
+  background-color: transparent;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.ok {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 4px 23px;
+  text-decoration: none;
+}
+
+
+.ok:active {
+  position: relative;
+  top: 1px;
+}
+
+.active{
+    background-color: #1C2124;
+    
+}
+
+/* Posição do selo cleanandsafe */
+
+.cleanandsafe {
+  height: 72px;
+  position: absolute;
+  width: 72px;
+  top: 185vh;
+  right: 2vw;
+}
+
+.cleanandsafer {
+  height: 72px;
+  position: absolute;
+  width: 72px;
+  top: 0vh;
+  right: 2vw;
+}
+
+.cleanandsafe1 {
+  height: 72px;
+  position: absolute;
+  width: 72px;
+  top: 2vh;
+  right: 2vw;
+}
+
+.cleanandsafe2 {
+  height: 72px;
+  position: absolute;
+  width: 72px;
+  top: 0vh;
+  right: 2vw;
+}
+
+/* Footer */
+
+footer {
+  border: 0px solid green;
+  width: 99%;
+  position: relative;
+  height: 90px;
+  margin: top auto;
+  bottom: 0;
+}
+
+.rodape {
+  border: 0px solid green;
+  position: absolute;
+  width: 99%;
+  height: 90px;
+  margin: top auto;
+  bottom: 0;
+  top: 185vh;
+}
+
+.rodapereservas {
+  border: 0px solid green;
+  position: absolute;
+  width: 99%;
+  height: 90px;
+  margin: top auto;
+  bottom: 0;
+  top: 89vh;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.center img {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  bottom: 0;
+}
+
+/* Imagens de fundo */
+
+.imgfundo {
+  width: 100%;
+}
+
+.bodylojas {
+  background-image: url(background1.png);
+  background-size: 100% auto;
+  /*   background-size: cover;*/
+}
+
+.bodyreserva {
+  background-image: url(backgroundimage.jpg);
+  background-repeat: repeat -y;
+  background-size: 100% auto;
+  background-size: cover;	
+}
+
+.bkindex {
+  width: 100vw;
+  height: 90vh;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  border: 0px solid red;
+  background-image: url(homepage.jpg);
+  background-size: 100% 100%;
+}
+
+.img2 {
+  height: 200px;
+  border: 1px solid black;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(homepage2.jpg);
+  background-size: 100% 100%;
+  margin-top: 20%;
+}
+
+.content {
+  position: static;
+}
+.content img {
+  position: absolute;
+  bottom: 70%;
+  right: 90%;
+}
+
+
+.idioma {
+  position: absolute;
+  top: 100px;
+}
+
+.idi{ 
+  position: relative;
+	
+	
+	}
+
+/* video */
+
+.video {
+  margin-top: 250px;
+    width: 100%;
+    position: relative;
+}
+.videoindex {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+
+/* Grid com texto e imagem restaurantes */
+
+.tudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "texto imagem";
+  padding: 2%;
+}
+
+.tudo h1 {
+  text-align: center;
+  font-size: 150%;
+}
+
+.tudo p {
+  font-family: DTLNobelT-Light;
+  font-size: 120%;
+}
+
+.texto {
+  grid-area: texto;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 0px solid red;
+}
+
+/* Imagem restaurantes */
+
+.imgrestaurante {
+  grid-area: imagem;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 10%;    
+  margin-right: 10%;
+  border: 0px solid red;
+  object-fit: cover;
+}
+
+.imgindex img{
+  width: 100%;
+  height: 100%;    
+  position: absolute;
+  object-fit: cover;
+    
+}
+
+/* background img nas div */
+
+.bgimg {
+    background-image: url("cartao.jpg");
+    margin-bottom: 5%;
+}
+
+
+
+/* formulario */
+
+
+
+label {
+  padding: 2% 12px 12px 0;
+  display: inline-block;
+  font-size: 30px;
+  
+}
